@@ -1,0 +1,103 @@
+.contenedor{
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+.contSuperior{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+.estado{
+    display: flex;
+}
+#activo,#NoActivo{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+#activo{
+    background-color: green;
+}
+#noActivo{
+    background-color: red;
+}
+.contSuperior img{
+    width: 280px;
+    height: 300px;
+    margin: 0 10px;
+}
+.descripcion{
+    text-align: left;
+    width: 80%;
+}
+.descripcion p{
+    width: 50%;
+}
+.estado p{
+    width: auto;
+}
+.contCapitulos{
+    margin: 2% auto;
+    width: 70%;
+    text-align: left;
+    border: solid 3px #000;
+}
+.capitulos{
+    background-color: #D9D9D9;
+    border: solid 1px #000;
+
+}
+.capitulos:hover{
+    cursor: pointer;
+    background-color: #9F9F9F;
+}
+.capitulos p {
+    font-weight: bolder;
+    padding: 10px;
+}
+.pdfview{
+    margin: auto;
+    display: block;
+    width: 70%;
+    height: 71vh;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.titulo{
+    margin: 20px;
+    font-weight: bolder;
+    color: black;
+}
+.botones{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.botones button{
+    margin: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    color: rgb(248, 204, 8);
+    background-color: #A01212;
+    border: solid 2px  rgb(248, 204, 8);
+}
+.botones button:hover{
+    cursor: pointer;
+}
+.contCapitulos a{
+    color: #000;
+}
+.regresar{
+    width: fit-content;
+    height: fit-content;
+    padding: 9px;
+    margin: 10px;
+    color: rgb(248, 204, 8);
+    background-color: #A01212;  
+    border-radius: 30px;
+    border: solid 2px  rgb(248, 204, 8);
+}
